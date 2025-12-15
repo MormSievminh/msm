@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <div id="loader" class="loader-wrapper">
+        <div class="inloader"></div>
+        <div class="loader"></div>
+    </div> -->
+    <div class="container">
+        <div class="top-navbar">
+            <div class="top-bar">
+                <p style="cursor:default;">Free express Delivery-Shipping and <span>- 50% OFF</span> select items.</p>
+                <p style="cursor: pointer;">English<i class="fa-solid fa-chevron-down"></i></p>
+            </div>
+        </div>
+        <nav>
+            <div class="main-navbar">
+                <div class="logo"><h1>Example</h1></div>
+                <div class="content-navbar">
+                    <ul>
+                        <li><a style="color: white;" href="index.html">Home</a></li>
+                        <li><a href="/About/about.html">About</a></li>
+                        <li><a href="/Contact/contact.html">Contact</a></li>
+                        <li><a href="/Sign-up/signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="srch">
+                    <div class="srch-block">
+                        <input placeholder="What are you looking for?" type="search" name="search" id="srch-btn">
+                        <label for="srch-btn"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></label>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-brands fa-opencart"></i></a>
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+                <div class="menu-bar">
+                    <div id="bar" class="bar"><i class="fa-solid fa-bars"></i></div>
+                    <div id="blur-bg" class="blur-bg"></div>
+                    <div id="menu" class="menu">
+                        <div class="head">
+                            <div class="logo"><h1>Exa<span>mple</span></h1></div>
+                            <div id="xmark" class="xmark"><i class="fa-solid fa-xmark"></i></div>
+                        </div>
+                        <ul>
+                            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                            <li><a href="/About/about.html"><i class="fa-solid fa-people-group"></i> About</a></li>
+                            <li><a href="/Contact/contact.html"><i class="fa-solid fa-phone"></i> Contact</a></li>
+                            <li><a href="/Sign-up/signup.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> Sign Up</a></li>
+                        </ul>
+                        <div class="cart-wishlist">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#"><i class="fa-brands fa-opencart"></i></a>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-person-dress"></i> Women's Fashion</a></li>
+                    <li><a href="#"><i class="fa-solid fa-shirt"></i> Men's Fashiond</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bolt-lightning"></i> Electronics</a></li>
+                    <li><a href="#"><i class="fa-solid fa-baby-carriage"></i> Baby's & Toys</a></li>
+                    <li><a href="#"><i class="fa-solid fa-house-fire"></i> Home & Stylelife</a></li>
+                    <li><a href="#"><i class="fa-solid fa-hat-wizard"></i> Accessory</a></li>
+                    <li><a href="#"><i class="fa-solid fa-volleyball"></i> Sports & Outdoor</a></li>
+                    <li><a href="#"><i class="fa-solid fa-briefcase-medical"></i> Health & Beauty</a></li>
+                    <li><a href="#"><i class="fa-solid fa-capsules"></i> Medicine</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bowl-rice"></i> Groceries & Pets</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="slide-wrapper">
+                <div class="img-object">
+                    <img src="/Ecommerce_banner/Ecomm_banner1.jpg" alt="..">
+                </div>
+                <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                <button class="next"><i class="fa-solid fa-angle-right"></i></i></button>
+            </div>
+        </main>
+        <div class="flash_sales">
+            <div class="pro-nickname"><p></p><p>Today's</p></div>
+            <div class="content_title">
+                <h1>Flash Sales</h1>
+                <div class="countdown">
+                    <div class="time-box">
+                        <p>Days</p>
+                        <span id="days">00</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <p>Hours</p>
+                        <span id="hours">00</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <p>Minutes</p>
+                        <span id="minutes">00</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <p>Seconds</p>
+                        <span id="seconds">00</span>
+                    </div>
+                </div>
+                <div class="prev_next">
+                    <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/nike_shoes2.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Nike Shoes</p>
+                        <p class="price">379$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/backpack2.webp" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Backpack</p>
+                        <p class="price">15$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/helmet1.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Backpack</p>
+                        <p class="price">15$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/nike_shoes1.avif" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Backpack</p>
+                        <p class="price">15$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/office_chair1.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Backpack</p>
+                        <p class="price">15$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view_all_products">
+                <button>View All Products</button>
+            </div>
+        </div>
+        <div class="prodcut-category">
+
+        </div>
+        <div class="product">
+            <div class="pro-nickname"><p></p><p>Our Products</p></div>
+            <h1>Explore Our Products</h1>
+            <div class="item-container">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/nike_shoes2.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Nike Shoes</p>
+                        <p class="price">379$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/nike_romaleos4_gold.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Nike Shoes</p>
+                        <p class="price">379$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/backpack2.webp" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Backpack</p>
+                        <p class="price">15$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/helmet1.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Helmet</p>
+                        <p class="price">125$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/desktop_table2.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Desktop Table</p>
+                        <p class="price">199$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/macbook1.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Mac Book</p>
+                        <p class="price">1699$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/rtx50.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">RTX 5090</p>
+                        <p class="price">2399$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/jacket2.png" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Jacket</p>
+                        <p class="price">30$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/office_chair1.png " alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Office Chair</p>
+                        <p class="price">259$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/headphone4.webp" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">JBL Headphone</p>
+                        <p class="price">99$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="/PNG Image/nike_shoes1.avif" alt="image">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    </div>
+                    <div class="description">
+                        <p class="title">Nike</p>
+                        <p class="price">399$</p>
+                        <div class="rating">
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star"><i class="fa-solid fa-star"></i></p>
+                            <p class="star-count">(18)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view_all_products">
+                <button>View All Products</button>
+            </div>
+        </div>
+        <footer>
+            <div class="content">
+                <div class="col1 col">
+                    <h2>Exclusive</h2>
+                    <p>Subscribe</p>
+                    <p>Get 10% off your first order</p>
+                    <form>
+                        <input type="email" name="email" id="emailInput" placeholder="Enter Your Email">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </form>
+                </div>
+                <div class="col2 col">
+                    <h3>Support</h3>
+                    <p>Phnom penh, Sensok</p>
+                    <p>zeavminh@gmail.com</p>
+                    <p>+85581-398-350</p>
+                </div>
+                <div class="col3 col">
+                    <h3>Account</h3>
+                    <p>My Account</p>
+                    <p>Login / Register</p>
+                    <p>Cart</p>
+                    <p>Wishlist</p>
+                    <p>Shop</p>
+                </div>
+                <div class="col4 col">
+                    <h3>Quick Link</h3>
+                    <p>Privacy Policy</p>
+                    <p>Term of Use</p>
+                    <p>FAQ</p>
+                    <p>Contact</p>
+                </div>
+                <div class="col5 col">
+                    <h3>Download App</h3>
+                    <div class="downApp">
+                        <p style="font-size: 13px; margin-bottom: 3px;">Save 3$ with app new user only</p>
+                        <img width="80px" src="/img2/QR.png" alt="">
+                        <div class="moblieApp">
+                            <div class="googlePlay"></div>
+                            <div class="appStore"></div>
+                        </div>
+                    </div>
+                    <div class="socialMedia">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i> <span>in</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer">
+            <p><span><i class="fa-regular fa-copyright"></i></span> Copyright Rimel 2025. All right reversed</p>
+        </div>
+    </div>
+<script src="/src/main.js"></script>
+</body>
+</html>

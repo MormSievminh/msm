@@ -1,0 +1,34 @@
+@media screen and (max-width: 550px){
+    nav .content-navbar{
+        display: none;
+    }
+    nav .menu-bar{
+        display: block;
+    }
+    main{
+        width: 90%;
+    }
+    main .secur-img{
+        display: none;
+    }
+}
+@media screen and (max-width: 880px){
+    nav .content-navbar{
+        display: none;
+    }
+    nav .main-navbar .cart-wishlist{
+        display: none;
+    }
+    nav .menu-bar{
+        display: block;
+    }
+}
+@media screen and (max-width: 746px){
+    main{
+        margin-top: 30px;
+    }
+    main .content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

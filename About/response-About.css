@@ -1,0 +1,18 @@
+@media screen and (max-width: 880px){
+    nav .content-navbar{
+        display: none;
+    }
+    nav .main-navbar .cart-wishlist{
+        display: none;
+    }
+    nav .menu-bar{
+        display: block;
+    }
+    main .story-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 990px){
+
+}
